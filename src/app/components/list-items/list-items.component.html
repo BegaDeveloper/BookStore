@@ -1,0 +1,5 @@
+<div class="row">
+<app-book-item class="col-md-3" [book]="book"
+*ngFor="let book of allBooks | filter: searchValue "
+></app-book-item>
+</div>

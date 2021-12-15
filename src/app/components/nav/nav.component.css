@@ -1,0 +1,49 @@
+#nav-header{
+margin-left: 100px;
+font-family: 'Bebas Neue', cursive;
+font-size: 30px;
+}
+#nav-main{
+background-color: #FAF3D0;
+-moz-box-shadow: 0 0 4px #ccc;
+-webkit-box-shadow: 0 0 4px #ccc;
+box-shadow: 0 0 4px #ccc;
+}
+
+#list{
+margin:  0 auto;
+}
+
+#a-link{
+transition: all 0,4s;
+font-weight: 600;
+margin-left: 15px;
+cursor: pointer;
+}
+
+#a-link:hover{
+color: #74FF5F;
+}
+.fa-plus{
+color: #33FF64;
+}
+
+.fa-tint{
+color: #33DDFF;
+}
+
+#spinner{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+@media(max-width: 550px){
+#nav-header{
+margin-left: 15px;
+}
+}
+
+button{
+margin-right: 20px;
+}

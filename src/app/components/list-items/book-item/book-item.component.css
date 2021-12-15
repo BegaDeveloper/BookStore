@@ -1,0 +1,16 @@
+.img{
+width: 100px;
+}
+
+#book-item{
+margin-top: 100px;
+width: 100%;
+display:flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+-moz-box-shadow: 0 0 4px #ccc;
+-webkit-box-shadow: 0 0 4px #ccc;
+box-shadow: 0 0 4px #ccc;
+padding: 15px;
+}

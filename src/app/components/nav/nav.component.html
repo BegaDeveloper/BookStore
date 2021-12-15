@@ -1,0 +1,23 @@
+<nav id="nav-main" class="navbar navbar-expand-lg navbar-light">
+  <a class="navbar-brand" href="#" id="nav-header">Powell's Books </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav" id="list">
+      <li class="nav-item active">
+        <a class="nav-link" (click)="loadHome()" id="a-link">Home </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" (click)="loadMyBooks()" id="a-link">My Books</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" (click)="loadAddBook()" id="a-link"><i class="fas fa-plus"></i> Add Book</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div *ngIf="isLoading" id="spinner">
+  <app-spinner></app-spinner>
+</div>

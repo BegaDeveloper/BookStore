@@ -1,0 +1,36 @@
+<div class="container">
+   <div class="inpt-div">
+     <input type="text" placeholder="Search for books: " class="form-control" id="inpt" [(ngModel)]="searchValue" >
+   </div>
+  <div class="col-sm-12 ">
+    <div class="img-div mb-5">
+      <img src="../../assets/images/cover_im.PNG" class="cover">
+    </div>
+  </div>
+  <hr/>
+  <div class="main-books-div">
+    <h3 class="text-center mb-5">Browse our books</h3>
+    <h3 class="text-center"><i class="fas fa-arrow-down"></i></h3>
+    <div>
+       <app-list-items [searchValue]="searchValue" ></app-list-items>
+    </div>
+  </div>
+</div>
+<h3 class="text-center" id="trusted">Trusted by big company's</h3>
+<div class="companys">
+  <div class="row mx-auto">
+    <div class="col"  id="logo">
+      <i class="fab fa-apple"></i>
+    </div>
+    <div class="col"  id="logo">
+      <i class="fab fa-android"></i>
+    </div>
+    <div class="col"  id="logo">
+      <i class="fab fa-microsoft"></i>
+    </div>
+    <div class="col"  id="logo">
+      <i class="fab fa-lyft"></i>
+    </div>
+  </div>
+</div>
+<app-footer></app-footer>
